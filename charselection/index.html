@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto X-Men - Semana do Zero Ao Programador Contratado</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header class="cabecalho"></header>
+
+  <main class="selecao-de-personagens">
+    <section class="personagens">
+      <h1 class="titulo">Selecione um personagem</h1>
+      <ul class="lista-de-personagens">
+        <li class="personagem" id="ciclope">
+          <img src="./src/imagens/card-ciclope.jpg" alt="Ciclope" data-nome="Ciclope" data-descricao="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los" />
+        </li>
+        <li class="personagem" id="jean-grey">
+          <img src="./src/imagens/card-jean-grey.jpg" alt="Jean Grey" data-nome="Jean Grey" data-descricao="Ela possui poderes telepáticos e telecinéticos, sendo uma das mutantes mais poderosas dos X-Men" />
+        </li>
+        <li class="personagem" id="lince-negra">
+          <img src="./src/imagens/card-lince-negra.jpg" alt="Lince Negra" data-nome="Lince Negra" data-descricao="Ela possui habilidades acrobáticas e é mestre em artes marciais, sendo uma integrante importante dos X-Men" />
+        </li>
+        <li class="personagem" id="tempestade">
+          <img src="./src/imagens/card-tempestade.jpg" alt="Tempestade" data-nome="Tempestade" data-descricao="Ela tem o poder de controlar o clima, sendo capaz de criar tempestades e fenômenos meteorológicos" />
+        </li>
+        <li class="personagem" id="vampira">
+          <img src="./src/imagens/card-vampira.jpg" alt="Vampira" data-nome="Vampira" data-descricao="Ela tem a habilidade de absorver a energia vital de outras pessoas através do toque" />
+        </li>
+        <li class="personagem" id="wolverine">
+          <img src="./src/imagens/card-wolverine.jpg" alt="Wolverine" data-nome="Wolverine" data-descricao="Ele possui garras retráteis de adamantium e capacidades regenerativas, além de habilidades de combate avançadas" />
+        </li>
+        <li class="personagem" id="noturno">
+          <img src="./src/imagens/card-noturno.jpg" alt="Noturno" data-nome="Noturno" data-descricao="Ele tem a capacidade de se teletransportar e possui uma aparência noturna com pele azul e cauda" />
+        </li>
+        <li class="personagem" id="magneto">
+          <img src="./src/imagens/card-magneto.jpg" alt="Magneto" data-nome="Magneto" data-descricao="Ele tem o poder de controlar os metais e é um dos maiores inimigos dos X-Men" />
+        </li>
+      </ul>
+    </section>
+    <section class="personagem-selecionado">
+      <img class="personagem-grande" src="" alt="Personagem Selecionado" />
+      <div class="informacoes-personagem">
+        <h2 class="nome-personagem" id="nome-personagem"></h2>
+        <p class="descricao-personagem" id="descricao-personagem"></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="src/js/index.js"></script>
+</body>
+</html>
